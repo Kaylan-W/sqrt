@@ -22,4 +22,4 @@ if __name__ == "__main__":
   main(opt["--n"])
 
 if number < 0:
-  raise Exception("n should not a positive number")
+  raise Exception("n should not a positive number, only a negative or 0")
